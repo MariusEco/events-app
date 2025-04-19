@@ -2,45 +2,41 @@
 This application allows users to manage events, tickets, participants, and related information through a basic Java console program.
 
 # Available Actions
-• Add new event
+• Add new event (supports sport, cultural, and business event types)
+
+• List all available events
 
 • Remove event
 
-• Update event details
+• Update event details (date, description, location)
 
-• Book ticket
+• Add ticket for an event
 
-• Generate event schedule
+• List all available tickets for an event
 
 • Search events (by location/name/date)
 
-• Generate revenue report
+• Add sponsors
 
-• List sponsors
+• List all-time sponsors and their contributions (sorted alphabetically)
 
-• Count participants/volunteers
+• Add participants/volunteers for an event
 
-• Submit review
-
-• Display event reviews
+• Count participants/volunteers for an event
 
 # System Objects
-• Event 
+• **Event** - Base class for all events
 
-• SportEvent
+• **SportEvent** - Specialized event with sport type information
 
-• CulturalEvent
+• **CulturalEvent** - Specialized event with cultural theme information
 
-• BusinessEvent
+• **BusinessEvent** - Specialized event with industry information
 
-• Location
+• **Participant** - Represents an event attendee
 
-• Participant
+• **Ticket** - Represents an event ticket with price and type
 
-• Ticket
+• **Sponsor** - Represents an event sponsor with contribution amount
 
-• Sponsor
-
-• Volunteer
-
-• Review
+• **Volunteer** - Specialized participant with assigned role
