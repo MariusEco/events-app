@@ -17,7 +17,7 @@ public class Main {
             System.out.println("5. Add ticket for an event");
             System.out.println("6. List all available tickets for an event");
             System.out.println("7. Search events");
-            System.out.println("8. Add sponsors");
+            System.out.println("8. Add sponsor");
             System.out.println("9. List all-time sponsors and their contributions");
             System.out.println("10. Add participants/volunteers for an event");
             System.out.println("11. Count participants/volunteers for an event");
